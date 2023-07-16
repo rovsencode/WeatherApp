@@ -1,0 +1,29 @@
+.weather-cr{
+    width: 1536px;
+    height: 753px;
+    overflow: hidden;
+}
+.weather-title{
+    font-variant: contextual;
+    font-style: oblique;
+    color: aliceblue;
+    text-align: center;
+    font-size: x-large;
+}
+.searchArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchInput{
+width: 500px;
+    height: 40px;
+    border-color: blanchedalmond;
+    border-radius: 50px;
+}
+.searchInput::placeholder{
+    text-align: center;
+}
+.searchInput:focus-visible{
+  outline: lightblue;
+  border-color:cornflowerblue ;}
