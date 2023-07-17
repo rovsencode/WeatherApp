@@ -21,9 +21,47 @@ width: 500px;
     border-color: blanchedalmond;
     border-radius: 50px;
 }
+.information-cr{
+  position: relative;
+
+}
 .searchInput::placeholder{
     text-align: center;
 }
 .searchInput:focus-visible{
   outline: lightblue;
   border-color:cornflowerblue ;}
+  .information-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+   
+  }
+  .weatherInformation{
+        display: flex;
+          border-radius: 50px;
+            width: 40%;
+            padding: 10px;
+            justify-content: space-between;
+              border: none;
+                outline: none;
+                padding: 10px;
+                border-top: 1px solid rgba(0, 0, 0, 0.2);
+                border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+                opacity: 0.8;
+                border-color: white;
+  }
+.day{
+  font-size: 17px;
+  color: white;
+}
+.temparature{
+  color: white;
+}
+  .weatherIcon{
+    width: 50%;
+  }
+  .information{
+    width: 50%;
+  }
